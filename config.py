@@ -1,0 +1,4 @@
+# :CONFIG:
+
+VIEW_MODE = 0
+MOUSE_SENS = 70
