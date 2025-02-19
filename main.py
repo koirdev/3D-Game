@@ -32,6 +32,8 @@ wall6 = Entity(model='cube',texture='white_cube',collider='box',scale=(0.6,1,1),
 door = Entity(model='cube',texture='assets/images/door_tex.png',scale=(0.7,2,1),x=2.2, y=5.5, z=-0.01,shader=lit_with_shadows_shader)
 gun = Entity(model="assets/3d_models/gun.glb", scale=0.9,color=color.red,texture='white_cube',parent=camera.ui,rotation=(0,-70,0),position=(0.5,-0.2,3),shader=lit_with_shadows_shader)
 #house1 = Entity(model="assets/3d_models/house1.glb", scale=0.5, x=10, y=0.1,z=15,collider='box',rotation=(0,450,0),position=(40,0,40),shader=lit_with_shadows_shader)
+
+# View Mode text
 if VIEW_MODE == 1:
 	text_entity = Text('VIEW_MODE',scale=2,x=-00.1,y=0.5)
 else:
