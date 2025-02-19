@@ -37,6 +37,7 @@ gun = Entity(model="assets/3d_models/gun.glb", scale=0.9,color=color.red,texture
 if VIEW_MODE == 1:
 	text_entity = Text('VIEW_MODE',scale=2,x=-00.1,y=0.5)
 else:
+# Version Text
 	text_entity = Text('ver. 0.1',scale=2,x=-00.1,y=0.5)
 table = Entity(model="cube",color=color.brown, texture="white", scale=(1,1,3), x=-1.5, y=5, collider='box', shader=lit_with_shadows_shader)
 Sky(texture='assets/images/sky_tex.png', shader=lit_with_shadows_shader)
