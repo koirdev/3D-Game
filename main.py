@@ -16,6 +16,7 @@ app = Ursina(
 	show_ursina_splash=False
 	)
 
+# Render objects
 enemy = Entity(model="assets/3d_models/enemy.glb", scale=2, x=0, y=2, shader=lit_with_shadows_shader)
 cube1 = Entity(model="cube",color=color.red, texture="white_cube", scale=1, x=7, y=0.5, collider='box', shader=lit_with_shadows_shader)
 cube2 = Entity(model="cube",color=color.red, texture="white_cube", scale=1, x=5, y=2, collider='box', shader=lit_with_shadows_shader)
@@ -39,11 +40,11 @@ table = Entity(model="cube",color=color.brown, texture="white", scale=(1,1,3), x
 Sky(texture='assets/images/sky_tex.png', shader=lit_with_shadows_shader)
 
 
-
+# Shaders
 light = DirectionalLight(shadows=True)
 light.look_at(Vec3(1,-1,1))
 
-
+# Rotating objects
 def update():
 	enemy.rotation_x = enemy.rotation_x + 0.25
 	enemy.rotation_y = enemy.rotation_y + 0.5
@@ -52,7 +53,7 @@ def update():
 		text_entity.rotation_y = text_entity.rotation_y + 0.9
 
 
-
+# View Mode
 if VIEW_MODE == 1:
 	EditorCamera()
 
