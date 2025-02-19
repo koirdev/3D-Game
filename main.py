@@ -62,6 +62,7 @@ if VIEW_MODE == 1:
 	#player = FirstPersonController(speed = 7,model='cube', jump_height = 2.2, jump_up_duration = 0.7,x=10,mouse_sensitivity = Vec2(MOUSE_SENS, MOUSE_SENS), cursor = Entity(parent=camera.ui, model='circle', color=color.white, scale=0.01, ))
 
 if VIEW_MODE == 0:
+# Player
 	player = FirstPersonController(speed = 7,collider='box', jump_height = 2.2, jump_up_duration = 0.7,x=10,shader=lit_with_shadows_shader, cursor = Entity(parent=camera.ui, model='circle', color=color.white, scale=0.01, ))
 
 
