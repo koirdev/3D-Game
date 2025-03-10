@@ -9,3 +9,5 @@ A simple game written in Python using the Ursina Engine library
 - https://www.ursinaengine.org/
 - https://github.com/pokepetter/ursina
 
+### Thank you for your attention!
+
