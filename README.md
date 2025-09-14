@@ -1,4 +1,4 @@
-# 3d-Game
+# 3D-Game
 A simple game written in Python using the Ursina Engine library
 
 <!--# Screenshots-->
