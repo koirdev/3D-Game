@@ -12,7 +12,11 @@ A simple game written in Python using the Ursina Engine library
 
 # License
 
-Released under [***MIT*** *License*](LICENSE)
+Released under [***MIT*** *License*](SCREENSHOTS.md)
+
+---
+
+[Screenshots](LICENSE)
 
 #### ***Thank you for your attention!***
 
