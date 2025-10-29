@@ -1,5 +1,16 @@
-# 3D-Game
+# 3D Game
 A simple game written in Python using the Ursina Engine library
+
+- [*License*](LICENSE)
+
+- [Screenshots](SCREENSHOTS.md)
+
+# License
+
+Released under [***MIT*** *License*](LICENSE)
+
+#### ***Thank you for your attention!***
+
 
 <!--# Screenshots-->
 <!--![SCRSHT](screenshots/1.png)
@@ -9,14 +20,3 @@ A simple game written in Python using the Ursina Engine library
 <!--# Links
 - https://www.ursinaengine.org/
 - https://github.com/pokepetter/ursina1-->
-
-# License
-
-Released under [***MIT*** *License*](LICENSE)
-
----
-
-[Screenshots](SCREENSHOTS.md)
-
-#### ***Thank you for your attention!***
-
